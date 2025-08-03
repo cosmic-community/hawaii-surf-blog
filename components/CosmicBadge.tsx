@@ -49,7 +49,8 @@ export default function CosmicBadge({ bucketSlug }: CosmicBadgeProps) {
           borderRadius: '8px',
           boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
           padding: '12px 16px',
-          width: '150px'
+          width: '150px',
+          whiteSpace: 'nowrap'
         }}
         onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f9fafb'}
         onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'white'}
